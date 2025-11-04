@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.26;
+pragma solidity ^0.8.26;
 
 import {IWstETH, IStETH} from "../interfaces/external/IWstETH.sol";
 import {WstETHHook, BaseTokenWrapperHook, IPoolManager, Currency} from "./WstETHHook.sol";
